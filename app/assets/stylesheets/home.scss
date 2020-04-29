@@ -1,0 +1,55 @@
+@import "base";
+
+#body {
+  min-height: 100%;
+}
+
+.jumbo-section {
+  padding-top: 6rem;
+  padding-bottom: 1.5rem;
+  background-color: $light-blue;
+}
+
+.bitcoin-description {
+  background-color: $main-blue;
+  padding-bottom: 1.5rem;
+  padding-top: 4rem;
+  a {
+    color: $yellow;
+    &:hover {
+      color: $gold;
+      text-decoration: none;
+    }
+  }
+}
+
+.bottom-section {
+  padding: 3.5rem;
+}
+
+.btn-yellow {
+  color: $black !important;
+  background-color: $yellow !important;
+  border-color: $yellow !important;
+  &:hover {
+    background-color: $gold !important;
+    border-color: $gold !important;
+  }
+}
+
+.coin-iso {
+  font-size: 2rem;
+}
+
+.header {
+  border-bottom: 1px solid $white;
+}
+
+.type {
+  color: $yellow;
+}
+
+.currency {
+  font-size: 1.5rem;
+  font-weight: 500;
+}

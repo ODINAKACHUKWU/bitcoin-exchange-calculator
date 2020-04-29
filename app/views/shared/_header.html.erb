@@ -1,0 +1,25 @@
+<div class="fixed-top shadow navbar-bg py-2">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg px-0">
+        <div>
+            <%= link_to root_path, class: "logo mr-2" do %>
+                <i class="fa fa-bitcoin"></i>
+            <% end %>
+            <%= link_to 'Bitcoin Exchange Calculator', root_path, class: "navbar-brand text-white" %>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://github.com/ODINAKACHUKWU/bitcoin-exchange-calculator"><i class="fa fa-github"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/graphiql">GraphQL API</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </div>
+</div>

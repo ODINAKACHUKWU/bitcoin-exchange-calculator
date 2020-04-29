@@ -1,0 +1,24 @@
+@import "base";
+
+.navbar-bg {
+  background-color: $main-blue;
+}
+
+.logo {
+  font-size: 2rem;
+  color: $gold;
+  &:hover {
+    color: $gold;
+    text-decoration: none;
+  }
+}
+
+.fa-github:before {
+  font-size: 1.5rem;
+}
+
+.navbar-toggler {
+  border: 1px solid $white !important;
+  .navbar-toggler-icon {
+  }
+}

@@ -1,0 +1,14 @@
+@import "base";
+
+footer {
+  background-color: $main-blue;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .coin-desk {
+    font-size: 1.2rem;
+    color: $yellow;
+  }
+}
