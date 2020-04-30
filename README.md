@@ -12,6 +12,8 @@ This application calculates the Nigerian Naira (NGN) equivalence of the current 
 - `Margin`: This is a percentage that is used in the calculation. Not a fraction, a percentage. For example, if `0.2` is passed into this argument, then the calculation is done with 0.2%.
 
 - `Exchange rate`: This is a custom USD/NGN exchange rate that will be used in the calculation.
+  <br />
+  <br />
 
 <img width="1440" alt="BEC Homepage" src="./app/assets/images/homepage.png">
 
@@ -69,7 +71,7 @@ The database used for this application is [PostgreSQL](https://www.postgresql.or
 
 ## Link to the deployed application
 
-Add link ------------->
+[Bitcoin Exchange Calculator](https://bitcoin-exchange-calculator.herokuapp.com)
 
 ## Questions
 
