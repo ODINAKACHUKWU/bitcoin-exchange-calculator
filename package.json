@@ -1,5 +1,9 @@
 {
   "name": "bitcoin-exchange-calculator",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "resolutions": {
+    "graphql": "1.10.8",
+    "graphiql-rails": "1.7.0"
+  }
 }
