@@ -8,7 +8,7 @@ This application calculates the Nigerian Naira (NGN) equivalence of the current 
 
 - `Exchange rate`: This is a custom USD/NGN exchange rate that will be used in the calculation.
 
-Correct source --------------> <img width="1440" alt="Authors Haven Homepage" src="./app/assets/images/homepage.png">
+<img width="1440" alt="BEC Homepage" src="./app/assets/images/homepage.png">
 
 # Table of Contents
 
