@@ -2,7 +2,7 @@
 
 class BitcoinExchangePrice
   include ActiveModel::Validations
-  include RateComposer
+  include ActionView::Helpers::NumberHelper
 
   CURRENCY_CODE = 'NGN'
   DESCRIPTION = 'Nigerian Naira'
@@ -16,7 +16,7 @@ class BitcoinExchangePrice
 
   def initialize(code:, description:, rate_float:)
     @code = code
-    @rate = compose_rate(rate_float)
+    @rate = number_with_delimiter(rate_float)
     @description = description
     @rate_float = rate_float
   end
