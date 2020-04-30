@@ -1,5 +1,10 @@
 # Bitcoin Exchange Calculator
 
+[![License Badge](https://img.shields.io/badge/license-ISC-9cf.svg)](https://opensource.org/licenses/MIT)
+[![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Code Quality](https://img.shields.io/badge/Protected_by-Hound-a873d1.svg)](https://houndci.com)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4f574e2b4be17a8f3cff/maintainability)](https://codeclimate.com/github/ODINAKACHUKWU/bitcoin-exchange-calculator/maintainability)
+
 This application calculates the Nigerian Naira (NGN) equivalence of the current bitcoin price in United States Dollar (USD). This is calculated using 3 (three) parameters:
 
 - `Type`: This specifies the transaction type which is either `buy` or `sell`, nothing else.
@@ -13,7 +18,7 @@ This application calculates the Nigerian Naira (NGN) equivalence of the current 
 # Table of Contents
 
 - [Getting Started](#Getting-Started "Goto Getting-Started")
-- [Link to the deplyed application](#Link-to-the-deplyed-application "Goto Link-to-the-deplyed-application")
+- [Link to the deplyed application](#Link-to-the-deployed-application "Goto Link-to-the-deplyed-application")
 - [Questions](#Questions "Goto Questions")
 - [Support or Contributions](#Support-or-Contributions "Support-or-Contributions")
 - [Appreciation](#Appreciation "Goto Appreciation")
