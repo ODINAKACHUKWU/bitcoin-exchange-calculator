@@ -1,5 +1,5 @@
-<section class="explorer">
-    <div class="container">
+<section id="dev-body" class="developer">
+    <div class="container pb-5">
         <div class="row d-flex justify-content-center">
             <h3>Bitcoin price GraphQL API</h3>
         </div>
@@ -19,6 +19,97 @@
                     <p class="d-flex justify-content-center text-dark">Insomnia</p>
                 <% end %>
             </div>
+        </div>
+        <div class="row border-bottom mt-3">
+            <h3 class="d-flex justify-content-center mt-3">Documentation</h3>
+        </div>
+        <div class="row mt-3">
+            <p class="d-flex justify-content-center mt-3">The bitcoin price GraphQL API entry point:<span class="font-weight-bold ml-2">https://bitcoin-exchange-calculator.herokuapp.com/graphql</span></p>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 d-flex bg-dark py-2">
+                <h5 class="text-white mr-2">Query:</h5><span class="query">calculatePrice</span>
+            </div>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Field</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>calculatePrice</td>
+                        <td><code>BitcoinExchangePrice!</code></td>
+                        <td>The current price of bitcoin in Nigerian Naira</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row mt-4">
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Argument</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>type</td>
+                        <td><code>String!</code></td>
+                        <td>The type of transaction. It can either be <code>buy</code> or <code>sell</code></td>
+                    </tr>
+                    <tr>
+                        <td>margin</td>
+                        <td><code>Float!</code></td>
+                        <td>The percentage that is used in the calculation of current price.</td>
+                    </tr>
+                    <tr>
+                        <td>exchangeRate</td>
+                        <td><code>Float!</code></td>
+                        <td>The custom exchange rate that is used in the calculation of current price.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 d-flex bg-dark py-2">
+                <h5 class="text-white mr-2">Output:</h5><span class="query">calculatePrice</span>
+            </div>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Field</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>code</td>
+                        <td><code>String!</code></td>
+                        <td>The currency code</td>
+                    </tr>
+                    <tr>
+                        <td>rate</td>
+                        <td><code>String!</code></td>
+                        <td>The delimitered bitcoin price</td>
+                    </tr>
+                    <tr>
+                        <td>rateFloat</td>
+                        <td><code>Float!</code></td>
+                        <td>The current bitcoin price</td>
+                    </tr>
+                    <tr>
+                        <td>description</td>
+                        <td><code>String!</code></td>
+                        <td>Describes the currency</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </section>

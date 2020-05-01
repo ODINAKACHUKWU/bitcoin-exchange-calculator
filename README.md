@@ -31,9 +31,9 @@ Bitcoin Exchange Calculator consumes [CoinDesk's](https://www.coindesk.com/coind
 
 Bitcoin Exchange Calculator:
 
-1. On the homepage, displays...
+1. On the homepage, displays the current bitcoin `buy` and `sell` prices in Nigerian Naira.
 
-2. Offers a GraphQL API with one query. The query `calculatePrice` accepts three required arguments: `type`, `margin`, and `exchangeRate` with with the calculation is done. The link to the GraphiQL interface where the query can be performed is on the homepage.
+2. Offers a GraphQL API with one query. The query `calculatePrice` accepts three required arguments: `type`, `margin`, and `exchangeRate` with with the calculation is done.
 
 ## Getting Started
 
