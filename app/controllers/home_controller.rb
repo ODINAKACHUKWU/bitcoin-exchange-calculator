@@ -12,6 +12,9 @@ class HomeController < ApplicationController
     @bitcoin_sell_price = bitcoin_exchange_rate_for_sell(current_price, computed_margin).rate
   end
 
+  # GET /explorer
+  def developer; end
+
   private
 
   # Returns bitcoin price for buy transaction
