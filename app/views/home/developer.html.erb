@@ -1,0 +1,24 @@
+<section class="explorer">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <h3>Bitcoin price GraphQL API</h3>
+        </div>
+        <div class="row d-flex justify-content-center mt-3">
+            <p>This API can be tested using any API client that enables GraphQL queries, like these popular tools:</p>
+        </div>
+        <div class="row d-flex justify-content-center mt-3">
+            <div>
+                <%= link_to 'https://www.postman.com/' do %>
+                    <%= image_tag("postman.jpg", :alt => "postman logo", :class => "rounded-circle", :height => "100") %>
+                    <p class="d-flex justify-content-center text-dark">Postman</p>
+                <% end %>
+            </div>
+            <div>
+                <%= link_to 'https://insomnia.rest/' do %>
+                    <%= image_tag("insomnia.png", :alt => "insomnia logo", :class => "rounded-circle", :height => "100") %>
+                    <p class="d-flex justify-content-center text-dark">Insomnia</p>
+                <% end %>
+            </div>
+        </div>
+    </div>
+</section>
