@@ -7,7 +7,7 @@ module Types
     # Field Signatures:
     field :calculate_price, BitcoinExchangePriceType, null: false do
       description 'The current price of the Bitcoin in Nigerian Naira equivalence (NGN)'
-      argument :type, String, required: true do
+      argument :type, TransactionType, required: true do
         description "The type of transaction. It can either be 'buy' or 'sell'"
       end
       argument :margin, Float, required: true do
