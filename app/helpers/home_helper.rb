@@ -6,7 +6,7 @@ module HomeHelper
     if Rails.env.production?
       developer_path
     else
-      '/graphiql'
+      graphiql_path
     end
   end
 

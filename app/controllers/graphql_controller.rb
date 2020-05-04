@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class GraphqlController < ApplicationController
   # If accessing from outside this domain, nullify the session
   # This allows for outside API access while preventing CSRF attacks,
@@ -14,9 +16,15 @@ class GraphqlController < ApplicationController
     }
     result = BitcoinExchangeCalculatorSchema.execute(query, variables: variables, context: context, operation_name: operation_name)
     render json: result
-  rescue => e
+  rescue StandardError => e
     raise e unless Rails.env.development?
+
     handle_error_in_development e
+  end
+
+  def graphiql_interface
+    p '>>>>>>>', ENV['GRAPHIQL_URL']
+    redirect_to ENV['GRAPHIQL_URL']
   end
 
   private

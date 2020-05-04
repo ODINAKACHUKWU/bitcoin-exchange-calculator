@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   end
   get '/developer', to: 'home#developer', as: 'developer'
   post '/graphql', to: 'graphql#execute'
+  get '/graphiql', to: 'graphql#graphiql_interface', as: 'graphiql'
   root 'home#index'
 end
