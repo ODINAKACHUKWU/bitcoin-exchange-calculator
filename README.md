@@ -4,6 +4,7 @@
 [![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Code Quality](https://img.shields.io/badge/Protected_by-Hound-a873d1.svg)](https://houndci.com)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4f574e2b4be17a8f3cff/maintainability)](https://codeclimate.com/github/ODINAKACHUKWU/bitcoin-exchange-calculator/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/4f574e2b4be17a8f3cff/test_coverage)](https://codeclimate.com/github/ODINAKACHUKWU/bitcoin-exchange-calculator/test_coverage)
 
 This application calculates the Nigerian Naira (NGN) equivalence of the current bitcoin price in United States Dollar (USD). This is calculated using 3 (three) parameters:
 
@@ -68,6 +69,10 @@ The database used for this application is [PostgreSQL](https://www.postgresql.or
 4. Start the server using the command `rails s`
 
 5. Visit the site on your browser using `localhost:3000`
+
+#### Testing with Rspec
+
+run the command `bundle exec rspec`
 
 ## Link to the deployed application
 
