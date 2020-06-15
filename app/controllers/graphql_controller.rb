@@ -23,7 +23,6 @@ class GraphqlController < ApplicationController
   end
 
   def graphiql_interface
-    p '>>>>>>>', ENV['GRAPHIQL_URL']
     redirect_to ENV['GRAPHIQL_URL']
   end
 

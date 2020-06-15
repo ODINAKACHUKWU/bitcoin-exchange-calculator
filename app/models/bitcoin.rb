@@ -17,7 +17,7 @@ class Bitcoin
 
   # Fetch current price of bitcoin from CoinDesk API
   def self.current_price(currency = 'USD')
-    if Rails.env.development?
+    if Rails.env.development? || Rails.env.test?
       BITCOIN_PRICE
     else
       get("/currentprice/#{currency}.json")['bpi'][currency.to_s]
